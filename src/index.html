@@ -2,32 +2,28 @@
 <html lang="pt-br">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
 
+      <header>
+        <div class="top">
+        <p class="logo"> Google Tradutor</p>
+        <p>das mensagens de Cézar</p>
+        </div>
+      </header>
+      <div id="root">
+      <h1>Mensagem Cifrada!</h1>
+      <form id="cipher">
+        <textarea name="message" id="Entrada" cols="70%" rows="10%" placeholder="Digite sua mensagem..."></textarea>
 
-<div class="secret-message">
-    <h1>Mensagem Secreta</h1>
-      <form name="cipher" action="/action_page.php" onsubmit="return validateForm()" method="post">
-        <textarea name="message" id="demo" cols="70%" rows="10%" placeholder="Digite sua mensagem..."></textarea>
 
-
-  <div id="key">
-
-      <h5>Insira sua chave</h5>
-      <input type="number" name="form-key" id="key-offset" min="1" max="26"placeholder="**">
-      <button type="submit" name="form">Enviar</button> 
-
-  </div>
-  </form>
-
-</div>
-
+        <textarea name="message" id="Saida" cols="70%" rows="10%" placeholder="Tradução"></textarea>
+     
+      </form>
+    </div>
     <script src="index.js" type="module"></script>
   </body>
-</html>
+</html> 
