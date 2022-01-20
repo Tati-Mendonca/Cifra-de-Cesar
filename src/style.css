@@ -3,34 +3,61 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body{
+.body{
    background-color: #fafafa;
    color: #4e525b;
 
 }
 
-header{
+.header{
    padding:0 0 1px 0;
    background-color: #e9e9e9;
    ;
 }
 
-form{
+.form{
    padding: 10px;
 }
 
-#root{
-   text-align: center;
-   padding: 20px;
-}
 
 .logo{
    font-size: 25px;
 }
 
-
+.titulo{
+   padding: 20px;
+}
 
 .top{
    background-color: #FFF;
    padding: 10px 20px;
+}
+
+.input{
+   width: 48px;
+   height: 23px;
+   border-radius: 8px;
+   border: 1px solid #ccc;
+   margin: 0 5px 0;
+  
+}
+.chave{
+   display: inline-flex;
+  
+   
+}
+
+textarea{
+  border-radius: 8px;
+   resize: none;
+   border: 1px solid #ccc;
+   margin: 5px;
+   padding: 10px;
+
+}
+
+#root{
+   text-align: center;
+   padding: 20px;
+   
 }

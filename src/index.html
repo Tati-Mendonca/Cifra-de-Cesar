@@ -6,23 +6,28 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body>
+  <body class="body">
 
-      <header>
+      <header class="header">
         <div class="top">
         <p class="logo"> Google Tradutor</p>
         <p>das mensagens de Cézar</p>
         </div>
       </header>
       <div id="root">
-      <h1>Mensagem Cifrada!</h1>
-      <form id="cipher">
-        <textarea name="message" id="Entrada" cols="70%" rows="10%" placeholder="Digite sua mensagem..."></textarea>
+      <h1 class="titulo">Mensagem Cifrada!</h1>
+      <div class="chave">
+      <p>Insira sua chave Secreta:</p>
+      <input class="input" type="number" min="1" max="26"placeholder="  ***">
+      </div>
+      <div class="textarea">
+      <form class="form" id="cipher">
+        <textarea name="message" id="entrada" cols="68%" rows="12%" placeholder="Digite sua mensagem..."></textarea>
 
-
-        <textarea name="message" id="Saida" cols="70%" rows="10%" placeholder="Tradução"></textarea>
-     
+        <textarea name="message" id="saida" cols="68%" rows="12%" placeholder="Tradução"></textarea>
+      </div>
       </form>
+    </div>
     </div>
     <script src="index.js" type="module"></script>
   </body>
