@@ -3,34 +3,32 @@ const cipher = {
   }
 
 
-  let alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  let codAsc = alfabeto.charCodeAt(0) - 65;
+let entrada = document.getElementById("entrada")
+let saida = document.getElementById("saida")
+let alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-  document.getElementById("saida").innerHTML = codAsc;
-  
-    
-    // chaveSecreta: function numero(id) {
-    //   document.getElementById("demo").innerHTML ="chaveSecreta"
-    // }
+
+entrada.onkeyup = function(){ //na textarea entrada qnd alguem digita o valor é enviaado a textarea saida
+  let valor = entrada.value 
 
 
 
+  saida.value = function(){
+    alfabeto.charCodeAt("valor") - 65
+}
+}
 
 
-  
   export default cipher;
 
 
 
+  // Código que duplica msg de entrada e saida funcionando.
 
-    
-
-
-
+  // let entrada = document.getElementById("entrada")
+  // let saida = document.getElementById("saida")
   
-
-   
-
-
-
- 
+  // entrada.onkeyup = function(){
+  //   let valor = entrada.value
+  //   saida.value = valor
+  // }

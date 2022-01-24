@@ -22,6 +22,25 @@
 
 .logo{
    font-size: 25px;
+   display: flex;
+   justify-content: start;
+   position: absolute;
+}
+.blue{
+color: #4c8cf5;
+}
+.red{
+   color: #ea4335;
+}
+.yellow{
+   color: #fcca38;
+}
+.green{
+   color: #34a853;
+}
+
+.sub{
+   padding-top: 30px;
 }
 
 .titulo{
