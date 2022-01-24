@@ -7,15 +7,22 @@ let entrada = document.getElementById("entrada")
 let saida = document.getElementById("saida")
 let alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
+let number = function add(){
+  let quantidade = parseInt(document.getElementById('numero').value); 
+        console.log("Value: "+quantidade);
+        }
+
+
 
 entrada.onkeyup = function(){ //na textarea entrada qnd alguem digita o valor é enviaado a textarea saida
-  let valor = entrada.value 
+  let valor = entrada.value.toUpperCase(); 
+  let deslocamento = valor.charCodeAt() - 65;
+  let chaveSecreta = deslocamento + number;
+
+  console.log(chaveSecreta); //codigo funcionando Alfabeto zerado
 
 
-
-  saida.value = function(){
-    alfabeto.charCodeAt("valor") - 65
-}
+  saida.value = deslocamento;
 }
 
 

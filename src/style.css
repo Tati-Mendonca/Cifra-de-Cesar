@@ -44,7 +44,7 @@ color: #4c8cf5;
 }
 
 .titulo{
-   padding: 20px;
+   padding-top: 20px;
 }
 
 .top{
@@ -72,6 +72,12 @@ textarea{
    border: 1px solid #ccc;
    margin: 5px;
    padding: 10px;
+
+}
+
+.subtitulo{
+   padding-bottom: 35px;
+   font-size:small;
 
 }
 
