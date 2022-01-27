@@ -6,22 +6,23 @@ const cipher = {
 let entrada = document.getElementById("entrada")
 let saida = document.getElementById("saida")
 let number = document.getElementById("number");
-let alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-let chave = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 17, 18, 19, 20, 21, 22, 23, 24, 25];
+const alfabeto = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 
+//console.log (alfabeto);
 
-for (let letra of alfabeto){ //pegar uma letra da string Alfabeto
-    console.log(letra)
+for (let i = 0; i < alfabeto.length; i++) { //loop nas letras do Alfabeto
+    console.log(i,alfabeto)
 }
+
 
 entrada.onkeyup = function(){ // textarea entrada qnd alguem digita o valor é enviado a textarea saida
   let valor = entrada.value.toUpperCase(); 
   let codigoDaLetraAsc = valor.charCodeAt() - 65; //codigo funcionando Alfabeto inicia em 0
-  let deslocamento = parseInt(codigoDaLetraAsc) + parseInt(number.value) %26; // código somando corretamente!
-  let retornarCodAsc = deslocamento + 65;
-  let decode = String.fromCharCode(retornarCodAsc)
+  let deslocamento = parseInt(codigoDaLetraAsc) + parseInt(number.value); // código somando corretamente!
+  let retornarCodAsc = deslocamento % 26 + 65; // retorno do alfabeto
+  let code = String.fromCharCode(retornarCodAsc)
 
-  saida.value = decode; //caixa de saida
+  saida.value = code; //caixa de saida
 }
 
 
@@ -29,13 +30,3 @@ entrada.onkeyup = function(){ // textarea entrada qnd alguem digita o valor é e
 
 
 
-
-  // Código que duplica msg de entrada e saida funcionando.
-
-  // let entrada = document.getElementById("entrada")
-  // let saida = document.getElementById("saida")
-  
-  // entrada.onkeyup = function(){
-  //   let valor = entrada.value
-  //   saida.value = valor
-  // }
