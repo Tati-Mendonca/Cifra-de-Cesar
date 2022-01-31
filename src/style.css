@@ -23,8 +23,10 @@
 .logo{
    font-size: 25px;
    display: flex;
+   margin-left: 20px;
    justify-content: start;
    position: absolute;
+   
 }
 .blue{
 color: #4c8cf5;
@@ -41,6 +43,7 @@ color: #4c8cf5;
 
 .sub{
    padding-top: 30px;
+   margin-left: 20px;
 }
 
 .titulo{
@@ -62,6 +65,7 @@ color: #4c8cf5;
 }
 .chave{
    display: inline-flex;
+   padding: 5px;
   
    
 }
@@ -72,11 +76,12 @@ textarea{
    border: 1px solid #ccc;
    margin: 5px;
    padding: 10px;
+   
 
 }
 
 .subtitulo{
-   padding-bottom: 35px;
+   padding-bottom: 0px;
    font-size:small;
 
 }
@@ -84,5 +89,16 @@ textarea{
 #root{
    text-align: center;
    padding: 20px;
+   
+}
+
+button{
+   
+   border: none;
+   display: block;
+   margin-right: 20px;
+   color: #4e525b;
+   background-color: #fafafa;
+   
    
 }

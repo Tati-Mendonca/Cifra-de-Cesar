@@ -16,21 +16,24 @@
         <p class="sub">das mensagens de César</p>
         </div>
       </header>
-      
+
       <div id="root">
       <h1 class="titulo">Mensagem Cifrada!</h1>
       <p class="subtitulo">Envie e receba mensagens secretas como no séc 19</p>
 
       <div class="chave">
       <p>Insira sua chave Secreta:</p>
-      <input class="input" type="number" id="number" min="1" max="26"placeholder="  ***">
+      <input class="input" type="number" id="offset" min="1" max="25"placeholder="  ***">
       </div>
 
       <div class="textarea">
-      <form class="form" id="cipher">
-        <textarea name="entrada" id="entrada" cols="68%" rows="12%" placeholder="Digite sua mensagem..."></textarea>
+      <form class="form" id="form">
+        <textarea name="string" id="string" cols="68%" rows="12%" placeholder="Digite sua mensagem..."></textarea>
 
         <textarea name="saida" id="saida" cols="68%" rows="12%" placeholder="Tradução"></textarea>
+
+       <button id="button"><em>Saiba mais</em></button> 
+
       </form>
     </div>
 
