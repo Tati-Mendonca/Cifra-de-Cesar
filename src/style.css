@@ -92,13 +92,20 @@ textarea{
    
 }
 
-button{
-   
+#saiba-mais{
+   font-size: 12px;
    border: none;
    display: block;
    margin-right: 20px;
    color: #4e525b;
    background-color: #fafafa;
    
-   
+}
+
+#button{
+   padding: 10px 30px;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+   background-color: #fafafa;
+   color: #4e525b;
 }
