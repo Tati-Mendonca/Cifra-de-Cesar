@@ -31,6 +31,14 @@ decode(offset,string){
     }
     console.log(decipherString);
     return decipherString;
+
+
+
+
+
+  
   }
 } 
+
+
 export default cipher;

@@ -1,3 +1,4 @@
+
 import cipher from './cipher.js';  
 
         
@@ -24,3 +25,22 @@ function encode() {
 document.getElementById("buttonDecode").addEventListener("click", decode)
 let textCipher = document.getElementById("string");
 textCipher.addEventListener("keyup", encode);
+
+
+document.getElementById("saiba-mais").addEventListener("click", demoDisplay);
+
+
+
+
+    function demoDisplay(e) {
+        e.preventDefault()
+    
+        let info = document.getElementById("secret");
+        if(info.style.display === "block"){
+            info.style.display = "none";
+        } else {
+            info.style.display = "block";
+        }
+   
+   
+}
