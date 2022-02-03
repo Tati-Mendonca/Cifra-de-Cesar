@@ -6,10 +6,9 @@ function encode() {
     let string = document.getElementById("string").value.toUpperCase();
     let offset = Number(document.getElementById("offset").value);
     let encodeCipher = cipher.encode(offset, string)
-    document.getElementById("saida").value = encodeCipher    
+    document.getElementById("exit").value = encodeCipher    
     
 }
-
 
  //Se usuário clicar em botão decifrar executar função abaixo
 
@@ -19,17 +18,35 @@ function encode() {
         let string1 = document.getElementById("string").value.toUpperCase();
         let offset1 = Number(document.getElementById("offset").value);
         let decodeCipher = cipher.decode(offset1, string1)
-        document.getElementById("saida").value = decodeCipher    
+        document.getElementById("exit").value = decodeCipher    
 }
 
-document.getElementById("buttonDecode").addEventListener("click", decode)
+// chama as funções
+
 let textCipher = document.getElementById("string");
 textCipher.addEventListener("keyup", encode);
+document.getElementById("buttonDecode").addEventListener("click", decode);
+
+//          APAGAR 
 
 
-document.getElementById("saiba-mais").addEventListener("click", demoDisplay);
+
+// let reverse = document.getElementById("buttonDecode").addEventListener("click");
+//     if(reverse.addEventListener){
+// //       alert('ok');
+//             document.getElementById("buttonDecode").addEventListener("click", decode);
+//         clicado = true;
+//     }else{
+//             document.getElementById("string").addEventListener("keyup, encode");
+//     }
+// }
 
 
+
+//Função div oculta
+
+
+document.getElementById("btn-div-secret").addEventListener("click", demoDisplay);
 
 
     function demoDisplay(e) {
@@ -41,6 +58,5 @@ document.getElementById("saiba-mais").addEventListener("click", demoDisplay);
         } else {
             info.style.display = "block";
         }
-   
    
 }

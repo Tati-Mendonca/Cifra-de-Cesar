@@ -15,17 +15,17 @@
     <div class="top">
       <div class="logo">
         <img src="./img/google2.png" alt="Logo Google Tradutor" class="google">
-        <!--   <img src="./img/icon.png" alt="link linkedin" class="icon"> -->
+  
       </div>
-      <p class="sub">das mensagens de César</p>
+      <p class="sub-logo">das mensagens de César</p>
     </div>
   </header>
 
-  <div id="root">
-    <h1 class="titulo">Mensagem Cifrada!</h1>
-    <p class="subtitulo">Envie e receba mensagens secretas como no séc 19</p>
+  <main>
+    <h1 class="title">Mensagem Cifrada!</h1>
+    <p class="sub-title">Envie e receba mensagens secretas como no séc 19</p>
 
-    <div class="chave">
+    <div class="key-offset">
       <p>Insira sua chave Secreta:</p>
       <input class="input" type="number" id="offset" min="1" max="25" placeholder="  ***">
     </div>
@@ -34,18 +34,19 @@
       <form class="form" id="form">
         <textarea name="string" id="string" cols="68%" rows="12%" placeholder="Digite sua mensagem..."></textarea>
 
-        <textarea name="saida" id="saida" cols="68%" rows="12%" placeholder="Tradução"></textarea>
+        <textarea name="exit" id="exit" cols="68%" rows="12%" placeholder="Tradução"></textarea>
 
-        <button id="saiba-mais"><em>Saiba mais</em></button>
+        <button id="btn-div-secret"><em>Saiba mais</em></button>
 
-        <img src="./img/setas.png" class="setas " alt="botão-seta" id="buttonDecode">
+        <img src="./img/setas.png" class="reverse" alt="botão para inverter código" id="buttonDecode">
       </form>
-      <div id="secret">
 
-        <div>
-          <img src="./img/cifra.png" alt="codigo de cifra" class="cifra">
-        </div>
-          <div>
+      <article id="secret">
+
+        <figure>
+          <img src="./img/cifra.png" alt="codigo de cifra" class="cipher">
+        </figure>
+          <div class="text-figure">
             <p>A cifra de César é um dos primeiros tipos de criptografias conhecidas na história. O imperador romano Júlio
               César utilizava essa cifra para enviar ordens secretas aos seus generais no campo de batalha.</p><br>
 
@@ -58,15 +59,15 @@
             <p>&emsp;&bull; A letra A será D</p>
             <p>&emsp;&bull; A palavra CASA será FDVD</p><br><br>
 
-
-
           </div>
-
-      </div>
+          <footer><hr>
+                 
+            <p class="footer">Desenvolvido por:&nbsp<a href="https://www.linkedin.com/in/tatiane-mendon%C3%A7a-7a7776106/">Tatiane Mendonça</a></p></footer>
+      </article>
 
     </div>
-    <script src="index.js" type="module"></script>
-  </div>  
+  </main>
+  <script src="index.js" type="module"></script>
   </body>
 
 </html>
