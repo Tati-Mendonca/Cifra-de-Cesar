@@ -46,7 +46,7 @@
 }
 
 .title{
-   padding-top: 20px;
+   padding-top: 35px;
 }
 
 .top{
@@ -89,7 +89,7 @@ main{
    text-align: center;
    
    background-color: #fafafa;
-   height: 164px;
+   height: 175px;
    border: solid 1px #ccc;
    
 }
@@ -98,7 +98,7 @@ main{
    font-size: 12px;
    border: none;
    display: block;
-   margin-right: 30px;
+   margin-right: 37px;
    color: #4e525b;
    background-color: #fff;
    

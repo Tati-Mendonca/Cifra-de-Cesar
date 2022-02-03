@@ -10,7 +10,7 @@ const cipher = {
                 newString += cipherText
       
             }
-            console.log(newString);
+          
             return newString
  },
 
@@ -25,7 +25,7 @@ decode(offset,string){
                 decipherString += decipherText;
 
     }
-    console.log(decipherString);
+ 
     return decipherString;
   
   }
