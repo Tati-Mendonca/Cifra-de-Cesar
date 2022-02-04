@@ -39,14 +39,14 @@
    
  }
 
-.sub{
+.sub-logo{
    padding-top: 30px;
    margin-left: 33px;
    font-size: 14px;
 }
 
-.titulo{
-   padding-top: 20px;
+.title{
+   padding-top: 35px;
 }
 
 .top{
@@ -62,11 +62,10 @@
    margin: 0 5px 0;
   
 }
-.chave{
+.key-offset{
    display: inline-flex;
    padding: 5px;
-  
-   
+   margin-top: 5px;
 }
 
 textarea{
@@ -80,46 +79,77 @@ textarea{
 
 }
 
-.subtitulo{
+.sub-title{
    padding-bottom: 0px;
    font-size:small;
 
 }
 
-#root{
+main{
    text-align: center;
-   padding: 20px;
+   
    background-color: #fafafa;
-   height: 140px;
+   height: 175px;
    border: solid 1px #ccc;
    
 }
 
-#saiba-mais{
+#btn-div-secret{
    font-size: 12px;
    border: none;
    display: block;
-   margin-right: 20px;
+   margin-right: 37px;
    color: #4e525b;
    background-color: #fff;
    
 }
 
 #button{
-   padding: 10px 30px;
+   padding: 20px 30px;
    border-radius: 5px;   
 }
 
 #secret {
    display: none;
    text-align:justify;
-   padding: 5px;
+   padding: 10px;
  }
 
- .cifra {
-   width: 50%;
-   height: 50%;
+ .text-figure{
+   margin-right: 37px;
+ }
+ figure{
+   padding-right: 30px;
+ }
+ .cipher {
+   width: 48%;
+   height: 48%;
    float: left;
    padding: 0 15px;
+   margin: 15px;
  }
 
+footer{
+   text-align: center;
+   height: 200px;
+   
+}
+
+hr{
+   border-top: 1px solid #ccc;
+   margin-top: 20px;
+
+}
+
+.footer{
+   margin-top: 170px;
+   padding-bottom: 30px;
+}
+
+footer a:link {
+   text-decoration: none;
+}
+
+footer a:visited {
+   color: #4386f4;
+ }
