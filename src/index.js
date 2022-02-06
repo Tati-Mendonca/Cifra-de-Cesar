@@ -4,7 +4,7 @@ import cipher from './cipher.js';
 document.getElementById("string").addEventListener("keyup", encode);
         
 function encode() {
-    let string = document.getElementById("string").value.toUpperCase();
+    let string = document.getElementById("string").value;
     let offset = Number(document.getElementById("offset").value);
     let encodeCipher = cipher.encode(offset, string)
     document.getElementById("exit").value = encodeCipher    
