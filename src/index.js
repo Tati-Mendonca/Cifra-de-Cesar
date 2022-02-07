@@ -16,7 +16,7 @@ document.getElementById("buttonDecode").addEventListener("click", decode);
 function decode (e){
     e.preventDefault() 
         
-    let string1 = document.getElementById("string").value.toUpperCase();
+    let string1 = document.getElementById("string").value;
     let offset1 = Number(document.getElementById("offset").value);
     let decodeCipher = cipher.decode(offset1, string1)
     document.getElementById("exit").value = decodeCipher  
