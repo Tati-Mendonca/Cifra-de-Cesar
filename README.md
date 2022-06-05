@@ -72,9 +72,24 @@ A interface permite ao usuário:
 - Javascrip
 - Dom
 
-## 5. Instalação
+## 5. Como usar
 
-- Baixe o app no ...
-- Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
-- Por fim clique em Index.html
+Você precisará usar o Node.js
+
+Clonar o projeto
+
+` $ git clone https://github.com/Tati-Mendonca/Trivia.git`
+
+Instalar as dependências do projeto
+
+` $ npm install or yarn`
+
+Iniciar a aplicação
+
+` $ npm start or yarn start`
+
+Realizar os testes unitários
+
+` $ npm test or yarn test`
+
 
