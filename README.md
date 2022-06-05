@@ -78,7 +78,7 @@ Você precisará usar o Node.js
 
 Clonar o projeto
 
-` $ git clone https://github.com/Tati-Mendonca/Trivia.git`
+` $ git clone https://github.com/Tati-Mendonca/Cifra-de-Cesar.git`
 
 Instalar as dependências do projeto
 
