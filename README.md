@@ -88,8 +88,6 @@ Iniciar a aplicação
 
 ` $ npm start or yarn start`
 
-Realizar os testes unitários
 
-` $ npm test or yarn test`
 
 
