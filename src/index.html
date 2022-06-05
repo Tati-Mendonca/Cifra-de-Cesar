@@ -6,16 +6,13 @@
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 </head>
 
 <body class="body">
-
   <header class="header">
     <div class="top">
       <div class="logo">
         <img src="./img/google2.png" alt="Logo Google Tradutor" class="google">
-  
       </div>
       <p class="sub-logo">das mensagens de César</p>
     </div>
@@ -24,17 +21,17 @@
   <main>
     <h1 class="title">Mensagem Cifrada!</h1>
     <p class="sub-title">Envie e receba mensagens secretas como no séc 19</p>
-
     <div class="key-offset">
-      <p>Insira sua chave Secreta:</p><p id="err"></p>
+      <p>Insira sua chave Secreta:</p>
+      <p id="err"></p>
       <input class="input" type="number" id="offset" min="1" max="25" placeholder="  ***">
     </div>
 
     <div class="textarea">
       <form class="form" id="form">
-        <textarea name="string" id="string" cols="68%" rows="12%" placeholder="Digite sua mensagem..."></textarea>
+        <textarea name="string" id="string" class="exit" placeholder="Digite sua mensagem..."></textarea>
 
-        <textarea name="exit" id="exit" cols="68%" rows="12%" placeholder="Tradução"></textarea>
+        <textarea name="exit" id="exit" class="exit" placeholder="Tradução"></textarea>
 
         <button id="btn-div-secret"><em>Saiba mais</em></button>
 
@@ -46,27 +43,30 @@
         <figure>
           <img src="./img/cifra.png" alt="codigo de cifra" class="cipher">
         </figure>
-          <div class="text-figure">
-            <p>A cifra de César é um dos primeiros tipos de criptografias conhecidas na história. O imperador romano Júlio
-              César utilizava essa cifra para enviar ordens secretas aos seus generais no campo de batalha.</p><br>
+        <div class="text-figure">
+          <p>A cifra de César é um dos primeiros tipos de criptografias conhecidas na história. O imperador romano Júlio
+            César utilizava essa cifra para enviar ordens secretas aos seus generais no campo de batalha.</p><br>
 
-            <p>cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um tipo de cifra por substituição,
-              em que cada letra do texto original é substituida por outra que se encontra há um número fixo de posições
-              (deslocamento) mais a frente do mesmo alfabeto.</p><br>
-            <p>Por exemplo se usarmos o deslocamento (offset) de 3 posições:</p><br>
+          <p>cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um tipo de cifra por substituição,
+            em que cada letra do texto original é substituida por outra que se encontra há um número fixo de posições
+            (deslocamento) mais a frente do mesmo alfabeto.</p><br>
+          <p>Por exemplo se usarmos o deslocamento (offset) de 3 posições:</p><br>
 
-            <p>&emsp;&bull; A letra A será D</p>
-            <p>&emsp;&bull; A palavra CASA será FDVD</p><br><br>
+          <p>&emsp;&bull; A letra A será D</p>
+          <p>&emsp;&bull; A palavra CASA será FDVD</p><br><br>
 
-          </div>
-          <footer><hr>
-                 
-            <p class="footer">Desenvolvido por:&nbsp<a href="https://www.linkedin.com/in/tatiane-mendon%C3%A7a-7a7776106/">Tatiane Mendonça</a></p></footer>
+        </div>
+        <footer>
+          <hr>
+
+          <p class="footer">Desenvolvido por:&nbsp<a
+              href="https://www.linkedin.com/in/tatiane-mendon%C3%A7a-7a7776106/">Tatiane Mendonça</a></p>
+        </footer>
       </article>
 
     </div>
   </main>
   <script src="index.js" type="module"></script>
-  </body>
+</body>
 
 </html>
