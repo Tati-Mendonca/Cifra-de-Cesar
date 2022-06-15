@@ -8,6 +8,7 @@
 - [3. Interface do Usuário](#3-inferface-do-usuário)
 - [4. Ferramentas utilizadas](#4-ferramentas-utilizadadas)
 - [5. Instalação](#5-instalacao)
+- [6. Desenvolvedora](#6-desenvolvedora)
 
 
 ## 1. Prefácio
@@ -70,7 +71,6 @@ A interface permite ao usuário:
 - HTML
 - CSS
 - Javascrip
-- Dom
 
 ## 5. Como usar
 
@@ -87,6 +87,11 @@ Instalar as dependências do projeto
 Iniciar a aplicação
 
 ` $ npm start or yarn start`
+
+## 6. Desenvolvedora
+
+| [<img src="https://avatars.githubusercontent.com/u/97405991?v=4" width=115><br><sub>Tatiane Mendonça</sub>](https://github.com/Tati-Mendonca)
+| :---: |
 
 
 
